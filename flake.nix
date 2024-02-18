@@ -11,6 +11,11 @@
     {
       templates = rec {
 
+       python311 = {
+          path = ./python311;
+          description = "Python 311 full enviroment";
+        };
+
         java = {
           path = ./java;
           description = "Java development environment - Latest Version";
