@@ -31,8 +31,8 @@
           description = "Java development environment - Java Version 17";
         };
 
-        generic = {
-          path = ./generic;
+        general = {
+          path = ./general;
           description = "Generic development / project enviroment";
         };
 
