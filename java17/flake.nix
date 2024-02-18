@@ -1,5 +1,5 @@
 {
-  description = "NIX - Java development environment";
+  description = "Java development environment - Java 17";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
