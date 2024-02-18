@@ -13,22 +13,27 @@
 
         java = {
           path = ./java;
-          description = "Java development environment";
+          description = "Java development environment - Latest Version";
         };
 
         java8 = {
           path = ./java8;
-          description = "Java development environment";
+          description = "Java development environment - Java Version 8";
         };
 
         java11 = {
           path = ./java11;
-          description = "Java development environment";
+          description = "Java development environment - Java Version 11";
         };
 
         java17 = {
           path = ./java17;
-          description = "Java development environment";
+          description = "Java development environment - Java Version 17";
+        };
+
+        generic = {
+          path = ./generic;
+          description = "Generic development / project enviroment";
         };
 
       };
