@@ -10,13 +10,13 @@
 
     in
     {              
-        devShells.${system}.default = pkgs.mkShell {          
+        devShells.${system}.default = pkgs.mkShell {
           packages = with pkgs; 
             [ 
                 python311Full
                 python311Packages.pip
-            ] ++
-            (with pkgs.python311Packages; [ pip pipenv ] )
-        };     
+                python311Packages.virtualenv
+            ];            
+        };
     };
 }
